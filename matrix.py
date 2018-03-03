@@ -66,7 +66,7 @@ def scalar_mult( matrix, s ):
             matrix[c][r]*= s
             
 #m1 * m2 -> m2
-def matrix_mult( m1, m2 ):
+def mult_matrix( m1, m2 ):
 
     point = 0
     for row in m2:
